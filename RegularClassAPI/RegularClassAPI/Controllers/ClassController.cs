@@ -12,7 +12,7 @@ namespace RegularClassAPI.Controllers
     {
         // GET api/class/{ClassId}
         [HttpGet]
-        public Class Get(int classId)
+        public Class GetSingleClass(int classId)
         {
             Class classObj = new Class();
             List<Class> ClassList = new List<Class>();
